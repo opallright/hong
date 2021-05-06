@@ -11,6 +11,7 @@ void drawSphere(){
 		glTranslatef(pos[0], pos[1], pos[2]);
 		glColor3f(color[0], color[1], color[2]);
 		glutSolidSphere(size, 100, 100);
-	glPopMatrix();
+	glPopMatrix(); 
+	return;
 }
 
